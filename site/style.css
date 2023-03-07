@@ -1,0 +1,101 @@
+body{
+    background-color:red;   
+}
+.red {
+    visibility: visible;
+    color: limegreen;
+    font-size: 50px;
+    padding-left: 50%;
+}
+.green {
+    visibility: hidden;
+    color: blueviolet;
+    font-size: 50px;
+    padding-left: 50%;
+}
+.blue{
+    visibility:hidden;
+    color: orange;
+    font-size: 50px;
+    padding-left: 50%;
+}
+
+.Gcat{
+ visibility: visible;
+ width: 100%;
+ height: 10%;
+}
+
+.cat{
+    visibility: hidden;
+ width: 0%;
+ height: 0%;
+}
+
+.chad{
+    visibility: hidden;
+    width: 0%;
+    height: 0%;
+}
+
+@media screen and (max-width: 990px) {
+
+    body{
+        background-color: limegreen;
+    }
+    .red {
+        visibility: hidden;
+    }
+    .green {
+        visibility: visible;
+;
+    }
+    .blue{
+        visibility:hidden;
+    }
+
+    .Gcat{
+        visibility: hidden;
+        width: 0%;
+        height: 0%;
+       }
+       
+       .cat{
+        visibility: visible;
+     width: 100%;
+     height: 10%;
+    }
+       
+       .chad{
+           visibility: hidden;
+           width: 0%;
+           height: 0%;
+       }
+}
+
+@media screen and (max-width: 600px) {
+
+    body{
+        background-color: blue;
+    }
+
+    .green {
+        visibility: hidden;
+    }
+    .blue{
+        visibility:visible;
+    }
+
+    .cat{
+        visibility: hidden;
+     width: 0%;
+     height: 0%;
+    }
+    
+    .chad{
+        visibility:visible;
+        width: 100%;
+        height: 30%;
+    }
+    
+}
